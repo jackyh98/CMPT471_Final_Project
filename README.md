@@ -1,22 +1,26 @@
 # CMPT471_Final_Project
-TCP Messaging Application
 
-To start server:
-  python3 server.py [ip-address] [port]
-  
-  example - python3 server.py 127.0.0.1 65535
+<h1>TCP Messaging Application<h1>
 
-To run clients:
-  python3 server.py [ip-address] [port]
-  
-  example - python3 client.py 127.0.0.1 65535
+<h3>To start server<h3> 
 
-To close client:
-  close()
+    python3 server.py [ip-address] [port]    
+    example - python3 server.py 127.0.0.1 65535
 
-To install dependencies:
-  chmod +x install_dependencies.sh
+<h3>To run clients:<h3> 
+
+    python3 server.py [ip-address] [port]
+    
+    example - python3 client.py 127.0.0.1 65535
+
+<h3>To close client:<h3>
+
+    close()
+
+<h3>To install dependencies:<h3>
   
-  sudo ./install_dependencies.sh
+    chmod +x install_dependencies.sh
   
-Warning: Do not have PyCrypto and PyCryptodome installed at the same time
+    sudo ./install_dependencies.sh
+  
+**Warning: Do not have PyCrypto and PyCryptodome installed at the same time**
